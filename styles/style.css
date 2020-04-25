@@ -104,6 +104,7 @@
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   color: #2f90ed;
   line-height: 1.2;
@@ -317,6 +318,12 @@
 }
 
 .footer__column-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.footer__column-link {
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
@@ -324,16 +331,12 @@
   color: white;
 }
 
-.footer__column-links:hover {
+.footer__column-link:hover {
   text-decoration: underline;
 }
 
-.footer__column-links:visited {
+.footer__column-link:visited {
   color: white;
-}
-
-.footer__column-links:last-of-type {
-  margin-bottom: 16px;
 }
 
 .footer__social-icon {
