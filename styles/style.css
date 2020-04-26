@@ -22,6 +22,7 @@
 }
 
 .logo {
+  width: 183px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -29,7 +30,6 @@
 
 .logo_place_header {
   position: absolute;
-  width: 183px;
   height: 32px;
   background-image: url(../images/logo_place_header.svg);
   top: 30px;
@@ -37,7 +37,6 @@
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
 }
@@ -320,6 +319,8 @@
 }
 
 .footer__column-links {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   padding: 0;
   margin: 0 0 16px;
