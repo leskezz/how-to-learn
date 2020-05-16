@@ -1,0 +1,12 @@
+@keyframes rotation_type_square {
+    from {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(345deg);
+    }
+}
+
+.rotation_type_square {
+    animation: rotation_type_square 20s linear infinite;
+}

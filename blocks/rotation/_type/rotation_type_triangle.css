@@ -1,0 +1,12 @@
+@keyframes rotation_type_triangle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotation_type_triangle {
+    animation: rotation_type_triangle 20s linear infinite;
+}

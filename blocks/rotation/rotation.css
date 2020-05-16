@@ -1,12 +1,2 @@
-@keyframes rotation {
-  from {
-    transform: rotate(-15deg);
-  }
-  to {
-    transform: rotate(345deg);
-  }
-}
-
-.rotation {
-    animation: rotation 20s linear infinite;
-}
+@import url(./_type/rotation_type_square.css);
+@import url(./_type/rotation_type_triangle.css);
